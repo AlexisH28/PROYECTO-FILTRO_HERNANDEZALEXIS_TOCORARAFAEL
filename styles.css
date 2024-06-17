@@ -1,0 +1,365 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "KellySlab";
+    src: url(/Fonts/KellySlab-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Tomorrow";
+    src: url(/Fonts/Tomorrow-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PermanentMarker";
+    src: url(/Fonts/PermanentMarker-Regular.ttf);
+}
+
+/* Header Styles */
+
+header {
+    font-family: "PermanentMarker";
+    background-color: red;
+    background-image: linear-gradient(rgb(248, 0, 0), rgb(0, 0, 0));
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-buttons--left, .header-buttons--right {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+.logo-text {
+    text-align: center;
+}
+
+.logo-text h1, .logo-text h2 {
+    color: #fff;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.logo-text h1 {
+    font-size: 1.5em;
+}
+
+.logo-text h2 {
+    font-size: 1em;
+}
+
+.navbar a img {
+    height: 40px;
+}
+
+/* Info-1 y Carousel */
+
+.info-1 {
+    font-family: "Tomorrow";
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.info-1 .info-content {
+    margin-bottom: 20px;
+}
+
+.info-1 .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.info-1 .boton:hover {
+    background-color: #0056b3;
+}
+
+.carousel-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+    border-radius: 15px;
+}
+
+.info-1 .boton {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+
+body {
+    font-family: "Signika Negative", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding-bottom: 60px;
+    animation: fadeIn 1s ease-in-out;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+/* Productos Section */
+.productos {
+    padding: 2rem;
+    text-align: center;
+}
+
+.productos h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #c00909;
+}
+
+.productos-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+
+.productos-grid {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.producto {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 200px;
+    flex: 0 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+    max-width: 35%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: white;
+}
+
+.producto p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.btn-comprar {
+    background-color: #c00909;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-comprar:hover {
+    background-color: #a00707;
+}
+
+/* Contacto Section */
+.contacto {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.contacto h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #c00909;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 1rem;
+}
+
+.redes-sociales a img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.redes-sociales a img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer Styles */
+
+.carrito {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.carrito h3 {
+    text-align: center;
+     margin-top: 0;
+}
+
+.carrito ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carrito li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.shopping-cart {
+    text-align: center;
+}
+
+.cart-container {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.cart-img {
+    width: 50px;
+}
+
+.quantity {
+    width: 50px;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.cart-summary h3 {
+    margin-bottom: 10px;
+}
+
+/* Animaciones */
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOutToLeft {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animated-section {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+/* Al cambiar a una nueva interfaz */
+.enter {
+    animation-name: slideInFromRight;
+}
+
+/* Al regresar a la interfaz anterior */
+.exit {
+    animation-name: slideOutToLeft;
+}
