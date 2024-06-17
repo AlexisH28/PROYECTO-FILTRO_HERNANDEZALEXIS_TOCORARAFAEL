@@ -109,7 +109,7 @@ header {
     padding: 20px;
     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-item img {
@@ -142,8 +142,9 @@ body {
 
 .productos h2 {
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #c00909;
+    text-align:start;
 }
 
 .productos-container {
@@ -170,19 +171,20 @@ body {
     min-width: 200px;
     flex: 0 0 auto;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s, box-shadow 0.3s;
     text-decoration: none;
 }
 
 .producto:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
 .producto img {
-    max-width: 35%;
-    height: auto;
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: cover;
     margin-bottom: 10px;
 }
 
@@ -190,7 +192,6 @@ body {
     font-size: 1.2rem;
     margin: 10px 0;
     color: black;
-    
 }
 
 .producto p {
@@ -201,7 +202,7 @@ body {
 }
 
 .btn-comprar {
-    background-color: #c00909;
+    background-color: #d41616d2;
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -218,15 +219,29 @@ body {
 
 #nosotros {
     font-family: "Tomorrow";
+    text-align: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 85%;
 }
 
+#nosotros h2 {
+    color: #c00909;
+    font-size: 2rem;
+}
 
-/* Contacto Section */
+/* Footer/Contacto Section */
+
 .contacto {
     font-family: "Tomorrow";
     padding: 2rem;
     text-align: center;
     background-color: #f4f4f4;
+    bottom: o;
 }
 
 .contacto h2 {
@@ -243,7 +258,7 @@ body {
 }
 
 .redes-sociales a img {
-    width: 30px;
+    width: 50px;
     height: auto;
     transition: transform 0.3s;
 }
