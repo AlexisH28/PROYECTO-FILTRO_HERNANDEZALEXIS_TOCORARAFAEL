@@ -12,6 +12,9 @@ Este proyecto es una página web orientada a móviles diseñada para vender prod
 - **Sección "Sobre Nosotros":** Información sobre la tienda.
 - **Sección de contacto:** Enlaces a nuestras redes sociales y formas de contacto.
 
+##Diapositivas
+https://www.canva.com/design/DAGIZQ9zE6A/WVYiBOKX_qACis2Z1rLrHg/edit?utm_content=DAGIZQ9zE6A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## Tecnologías Utilizadas
 
 - **HTML5:** Estructura de la página web.
