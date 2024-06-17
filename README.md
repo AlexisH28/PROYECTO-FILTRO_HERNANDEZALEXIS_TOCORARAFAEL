@@ -23,7 +23,7 @@ Este proyecto es una página web orientada a móviles diseñada para vender prod
 - **Clona este repositorio:**
 https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL
    
-- **Abre (index.html) en tu navegador**.
+- **Abre index.html en tu navegador**.
 
 ## Contribución
 
