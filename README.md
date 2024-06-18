@@ -1,6 +1,6 @@
 # BULLS PROMINENCE
 
-##Tabla de Contenido:
+#Tabla de Contenido:
 
 1. [Descripción](#Descripción)
 2. [Funcionalidades](#Funcionalidades)
