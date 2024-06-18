@@ -15,7 +15,11 @@
 
 ### Interfaz Principal
 
-![WhatsApp Image 2024-06-18 at 1 31 03 AM (3)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/ad58caa5-ecc2-4704-9b5e-78c6ad07e239)
+![Bienvenidos (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/13ee1cc8-3372-4dd2-8bb4-ce71a2ba4adc)
+
+
+
+### Galería de Productos
 
 
 
