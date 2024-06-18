@@ -1,8 +1,18 @@
 # BULLS PROMINENCE
 
+##Tabla de Contenido:
+
+1. [Descripción](#Descripción)
+2. [Funcionalidades](#Funcionalidades)
+3. [Diapositivas](#Diapositivas)
+4. [Tecnologías Utilizadas](#TecnologíasUtilizadas)
+5. [USO](#USO)
+6. [Contribución](#Contribución)
+7. [Contacto](#Contacto)
+
 ## Descripción
 
-Este proyecto es una página web orientada a móviles diseñada para vender productos de volleyball.
+Este proyecto es una página web orientada a móviles diseñada para vender productos de volleyball. El objetivo principal de esta plataforma es proporcionar una experiencia de usuario intuitiva y fluida para los aficionados y jugadores de volleyball que deseen adquirir equipamiento y accesorios de alta calidad.
 
 ## Funcionalidades
 
