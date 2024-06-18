@@ -13,19 +13,19 @@
 
 ## Capturas de Pantalla
 
-- Interfaz Principal
-![88c860dd-42c5-4dc8-8566-1bee6e6470dc](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/09f420f6-6435-418a-b213-91ccf8356480)
-![8910f1fd-149e-40d7-93c2-4d58a4412dcb](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/8f75249c-d20d-4272-8640-3f5dbfef6b50)
-![bcbdd805-ddaf-4164-945d-5a68ea7a5289](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/7cb26a4e-e75c-45e0-a406-cebf94cd6d73)
+### Interfaz Principal
 
-- Galería de Productos
-![b5f0ee8c-4965-4b79-b932-8084269663ed](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/5b2991be-50a8-452a-8644-6b21d5aa2ded)
+![WhatsApp Image 2024-06-18 at 1 31 03 AM](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/7c407a80-424c-4098-8dc6-07f8967c32b5)
 
-- Carrito de Compras
-![5be84a6b-faf3-43f8-9595-85568297dc52](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/3d2db852-eaff-4289-9565-7f73a5e7b7f1)
 
-- Descripción Producto:
-![72f7df6b-94f6-4ed6-af46-8c2380b8841a](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/ff10d1ff-a062-400d-9b6f-3cc1c1b05198)
+### Galería de Productos
+
+
+### Carrito de Compras
+
+
+### Descripción Producto:
+
 
 
 
