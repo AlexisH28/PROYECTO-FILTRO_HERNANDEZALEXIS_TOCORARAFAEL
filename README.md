@@ -2,13 +2,19 @@
 
 ## Tabla de Contenido
 
-1. [Descripción](#Descripción)
-2. [Funcionalidades](#Funcionalidades)
-3. [Diapositivas](#Diapositivas)
-4. [Tecnologías Utilizadas](#TecnologíasUtilizadas)
-5. [USO](#USO)
-6. [Contribución](#Contribución)
-7. [Contacto](#Contacto)
+1. [Capturas de Pantalla](#CapturasdePantalla)
+2. [Descripción](#Descripción)
+3. [Funcionalidades](#Funcionalidades)
+4. [Diapositivas](#Diapositivas)
+5. [Tecnologías Utilizadas](#TecnologíasUtilizadas)
+6. [USO](#USO)
+7. [Contribución](#Contribución)
+8. [Contacto](#Contacto)
+
+## Capturas de Pantalla
+
+![88c860dd-42c5-4dc8-8566-1bee6e6470dc](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/09f420f6-6435-418a-b213-91ccf8356480)
+
 
 ## Descripción
 
