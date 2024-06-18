@@ -5,11 +5,12 @@
 1. [Capturas de Pantalla](#CapturasdePantalla)
 2. [Descripción](#Descripción)
 3. [Funcionalidades](#Funcionalidades)
-4. [Diapositivas](#Diapositivas)
-5. [Tecnologías Utilizadas](#TecnologíasUtilizadas)
-6. [USO](#USO)
-7. [Contribución](#Contribución)
-8. [Contacto](#Contacto)
+4. [Bocetos y Diseños](#BocetosyDiseños)
+5. [Diapositivas](#Diapositivas)
+6. [Tecnologías Utilizadas](#TecnologíasUtilizadas)
+7. [USO](#USO)
+8. [Contribución](#Contribución)
+9. [Contacto](#Contacto)
 
 ## Capturas de Pantalla
 
@@ -31,10 +32,6 @@
 
 ![Descripción Producto (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/c3573cf0-6409-496d-b80e-11b5e5f5ad14)
 
-
-
-
-
 ## Descripción
 
 Este proyecto es una página web orientada a móviles diseñada para vender productos de volleyball. El objetivo principal de esta plataforma es proporcionar una experiencia de usuario intuitiva y fluida para los aficionados y jugadores de volleyball que deseen adquirir equipamiento y accesorios de alta calidad.
@@ -49,7 +46,10 @@ Este proyecto es una página web orientada a móviles diseñada para vender prod
 
 ## Bocetos y Diseños
 
+### Bocetos
 https://www.canva.com/design/DAGIdlasIR8/kXZs5LrxJ1s7czuoaycXVw/edit?utm_content=DAGIdlasIR8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+### Diseños
 https://www.canva.com/design/DAGIfhCG0YE/YFBakEcZtcN7CujuPjxUwg/edit?utm_content=DAGIfhCG0YE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Diapositivas
