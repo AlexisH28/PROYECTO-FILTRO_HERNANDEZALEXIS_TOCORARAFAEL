@@ -305,8 +305,6 @@ body {
     padding: 2rem;
     text-align: center;
     background-color: #f4f4f4;
-    bottom: o;
-    margin-top: ;
 }
 
 .contacto h2 {
@@ -368,7 +366,6 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-
 
 /* Shopping Car Styles */
 
@@ -640,7 +637,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
+        font-size: 0.5rem;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
         animation: Zoom 1.5s ease-in-out; 
     }
