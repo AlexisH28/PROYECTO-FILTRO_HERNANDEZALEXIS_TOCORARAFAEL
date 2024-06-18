@@ -16,20 +16,21 @@
 ### Interfaz Principal
 
 ![Bienvenidos (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/13ee1cc8-3372-4dd2-8bb4-ce71a2ba4adc)
-
-
-
-### Galería de Productos
-
-
+![Nuestros Productos (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/8bd3ec7b-9763-40d4-b637-49a6f604c1ac)
+![Nosotros (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/fb176ebd-06af-4680-8735-4a18f983e96c)
 
 ### Galería de Productos
 
+![Galería Productos (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/20e974d8-fc9d-4cac-81a1-130eb9b40541)
 
 ### Carrito de Compras
 
+![Carrito (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/71f55d01-26bf-4296-9028-57ed680c2ef0)
 
 ### Descripción Producto:
+
+![Descripción Producto (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/c3573cf0-6409-496d-b80e-11b5e5f5ad14)
+
 
 
 
