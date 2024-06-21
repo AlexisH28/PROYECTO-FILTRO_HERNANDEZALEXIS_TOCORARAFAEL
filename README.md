@@ -5,12 +5,13 @@
 1. [Capturas_de_Pantalla](#CapturasdePantalla)
 2. [Descripción](#Descripción)
 3. [Funcionalidades](#Funcionalidades)
-4. [Bocetos_y_Diseños](#Bocetos_y_Diseños)
-5. [Diapositivas](#Diapositivas)
-6. [Tecnologías](#Tecnologías)
-7. [USO](#USO)
-8. [Contribución](#Contribución)
-9. [Contacto](#Contacto)
+4. [Bocetos](#Bocetos)
+5. [Diseños](#Diseños)
+6. [Diapositivas](#Diapositivas)
+7. [Tecnologías](#Tecnologías)
+8. [USO](#USO)
+9. [Contribución](#Contribución)
+10. [Contacto](#Contacto)
 
 ## Capturas de Pantalla
 
@@ -44,15 +45,16 @@ Este proyecto es una página web orientada a móviles diseñada para vender prod
 - **Sección "Sobre Nosotros":** Información sobre la tienda.
 - **Sección de contacto:** Enlaces a nuestras redes sociales y formas de contacto.
 
-## Bocetos y Diseños
+## Bocetos
 
-### Bocetos
 https://www.canva.com/design/DAGIdlasIR8/kXZs5LrxJ1s7czuoaycXVw/edit?utm_content=DAGIdlasIR8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-### Diseños
+## Diseños
+
 https://www.canva.com/design/DAGIfhCG0YE/YFBakEcZtcN7CujuPjxUwg/edit?utm_content=DAGIfhCG0YE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Diapositivas
+
 https://www.canva.com/design/DAGIZQ9zE6A/WVYiBOKX_qACis2Z1rLrHg/edit?utm_content=DAGIZQ9zE6A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Tecnologías
