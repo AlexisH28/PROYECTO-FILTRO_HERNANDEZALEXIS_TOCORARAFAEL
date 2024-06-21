@@ -2,10 +2,10 @@
 
 ## Tabla de Contenido
 
-1. [CapturasdePantalla](#CapturasdePantalla)
+1. [Capturas_de_Pantalla](#CapturasdePantalla)
 2. [Descripción](#Descripción)
 3. [Funcionalidades](#Funcionalidades)
-4. [BocetosyDiseños](#BocetosyDiseños)
+4. [Bocetos_y_Diseños](#BocetosyDiseños)
 5. [Diapositivas](#Diapositivas)
 6. [Tecnologías Utilizadas](#TecnologíasUtilizadas)
 7. [USO](#USO)
