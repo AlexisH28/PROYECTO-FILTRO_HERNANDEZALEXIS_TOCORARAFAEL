@@ -46,10 +46,10 @@ Este proyecto es una página web orientada a móviles diseñada para vender prod
 
 ## Bocetos y Diseños
 
-### Bocetos
+### Sketches
 https://www.canva.com/design/DAGIdlasIR8/kXZs5LrxJ1s7czuoaycXVw/edit?utm_content=DAGIdlasIR8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-### Diseños
+### Designs
 https://www.canva.com/design/DAGIfhCG0YE/YFBakEcZtcN7CujuPjxUwg/edit?utm_content=DAGIfhCG0YE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Diapositivas
