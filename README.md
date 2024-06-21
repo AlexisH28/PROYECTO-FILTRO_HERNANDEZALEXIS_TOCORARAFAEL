@@ -5,7 +5,7 @@
 1. [CapturasdePantalla](#CapturasdePantalla)
 2. [Descripción](#Descripción)
 3. [Funcionalidades](#Funcionalidades)
-4. [Bocetos y Diseños](#BocetosyDiseños)
+4. [BocetosyDiseños](#BocetosyDiseños)
 5. [Diapositivas](#Diapositivas)
 6. [Tecnologías Utilizadas](#TecnologíasUtilizadas)
 7. [USO](#USO)
