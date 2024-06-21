@@ -2,7 +2,7 @@
 
 ## Tabla de Contenido
 
-1. [Capturas de Pantalla](#CapturasdePantalla)
+1. [Interfaz Principal](#InterfazPrincipal)
 2. [Descripción](#Descripción)
 3. [Funcionalidades](#Funcionalidades)
 4. [Bocetos y Diseños](#BocetosyDiseños)
