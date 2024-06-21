@@ -7,7 +7,7 @@
 3. [Funcionalidades](#Funcionalidades)
 4. [Bocetos_y_Diseños](#Bocetos_y_Diseños)
 5. [Diapositivas](#Diapositivas)
-6. [Tecnologías_Utilizadas](#Tecnologías_Utilizadas)
+6. [Tecnologías](#Tecnologías)
 7. [USO](#USO)
 8. [Contribución](#Contribución)
 9. [Contacto](#Contacto)
@@ -55,7 +55,7 @@ https://www.canva.com/design/DAGIfhCG0YE/YFBakEcZtcN7CujuPjxUwg/edit?utm_content
 ## Diapositivas
 https://www.canva.com/design/DAGIZQ9zE6A/WVYiBOKX_qACis2Z1rLrHg/edit?utm_content=DAGIZQ9zE6A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-## Tecnologías Utilizadas
+## Tecnologías
 
 - **HTML5:** Estructura de la página web.
 - **CSS3:** Estilos y diseño responsivo.
