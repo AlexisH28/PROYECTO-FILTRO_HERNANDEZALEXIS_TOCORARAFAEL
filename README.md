@@ -13,7 +13,7 @@
 9. [Contribución](#Contribución)
 10. [Contacto](#Contacto)
 
-## Capturas de Pantalla
+## Capturas_de_Pantalla
 
 ## Interfaz Principal
 
