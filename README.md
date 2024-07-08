@@ -1,6 +1,6 @@
 # BULLS PROMINENCE 💥
 
-## Tabla de Contenido
+## Tabla de Contenido 📋
 | Indice | Título  |
 |--|--|
 | 1. | [Interfaz_Principal](#Interfaz_Principal) |
