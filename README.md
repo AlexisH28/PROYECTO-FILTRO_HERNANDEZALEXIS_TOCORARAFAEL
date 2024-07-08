@@ -1,54 +1,44 @@
-# BULLS PROMINENCE 
+# BULLS PROMINENCE 💥
 
 ## Tabla de Contenido
 | Indice | Título  |
 |--|--|
-| 1. | Interfaz Principal |
-| 2. | Descripción |
-| 3. | Funcionalidades |
-| 4. | Bocetos |
-| 5. | Diseños |
-| 6. | Diapositivas |
-| 7. | Tecnologías |
-| 8. | USO |
-| 9. | Contribución |
-| 10. | Contacto |
-1. [Interfaz_Principal](#Interfaz_Principal)
-2. [Descripción](#Descripción)
-3. [Funcionalidades](#Funcionalidades)
-4. [Bocetos](#Bocetos)
-5. [Diseños](#Diseños)
-6. [Diapositivas](#Diapositivas)
-7. [Tecnologías](#Tecnologías)
-8. [USO](#USO)
-9. [Contribución](#Contribución)
-10. [Contacto](#Contacto)
+| 1. | [Interfaz_Principal](#Interfaz_Principal) |
+| 2. | [Descripción](#Descripción) |
+| 3. | [Funcionalidades](#Funcionalidades) |
+| 4. | [Bocetos](#Bocetos) |
+| 5. | [Diseños](#Diseños) |
+| 6. | [Diapositivas](#Diapositivas) |
+| 7. | [Tecnologías](#Tecnologías) |
+| 8. | [USO](#USO) |
+| 9. | [Contribución](#Contribución) |
+| 10. | [Contacto](#Contacto) |
 
-## Capturas_de_Pantalla
+## Capturas_de_Pantalla ⬇️
 
-## Interfaz_Principal
+## Interfaz_Principal 
 
 ![Bienvenidos (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/13ee1cc8-3372-4dd2-8bb4-ce71a2ba4adc)
 ![Nuestros Productos (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/8bd3ec7b-9763-40d4-b637-49a6f604c1ac)
 ![Nosotros (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/fb176ebd-06af-4680-8735-4a18f983e96c)
 
-## Galería de Productos
+## Galería de Productos 🏐
 
 ![Galería Productos (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/20e974d8-fc9d-4cac-81a1-130eb9b40541)
 
-## Carrito de Compras
+## Carrito de Compras 🛒
 
 ![Carrito (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/71f55d01-26bf-4296-9028-57ed680c2ef0)
 
-## Descripción Producto
+## Descripción Producto 🏐
 
 ![Descripción Producto (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/c3573cf0-6409-496d-b80e-11b5e5f5ad14)
 
-## Descripción 
+## Descripción 📱
 
 Este proyecto es una página web orientada a móviles diseñada para vender productos de volleyball. El objetivo principal de esta plataforma es proporcionar una experiencia de usuario intuitiva y fluida para los aficionados y jugadores de volleyball que deseen adquirir equipamiento y accesorios de alta calidad.
 
-## Funcionalidades
+## Funcionalidades 🌐
 
 - **Página de inicio:** Bienvenida y presentación de la tienda.
 - **Catálogo de productos:** Lista de productos con imágenes, descripciones y precios.
@@ -68,20 +58,22 @@ https://www.canva.com/design/DAGIfhCG0YE/YFBakEcZtcN7CujuPjxUwg/edit?utm_content
 
 https://www.canva.com/design/DAGIZQ9zE6A/WVYiBOKX_qACis2Z1rLrHg/edit?utm_content=DAGIZQ9zE6A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-## Tecnologías
+## Tecnologías 🖥️
 
 - **HTML5:** Estructura de la página web.
 - **CSS3:** Estilos y diseño responsivo.
 - **Bootstrap 5:** Framework CSS para diseño responsivo y componentes preconstruidos.
 
-## USO
+> [!IMPORTANT]
+> ## USO 🔧
 
 - **Clona este repositorio:**
 https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL
    
 - **Abre (index.html) en tu editor de código con la extensión "Live Server"**.
 
-## Contribución
+> [!TIP]
+> ## Contribución 👥
 
 ¡Me encantaría recibir tus contribuciones! Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
@@ -91,9 +83,14 @@ https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL
 - Empuja la rama (git push origin feature/nueva-funcionalidad).
 - Abre un Pull Request.
 
-## Contacto
+> [!NOTE]
+> ## Contacto 🧑‍💻
+
+Hecho por [Alexis Hernández](https://github.com/AlexisH28)
 
 Alexis Rafael Hernández Tocora -- (alexismar1228@gmail.com)
+
+
 
 
 
