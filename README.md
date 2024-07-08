@@ -2,7 +2,7 @@
 
 ## Tabla de Contenido
 
-1. [Interfaz Principal](#InterfazPrincipal)
+1. [Interfaz_Principal](#Interfaz_Principal)
 2. [Descripción](#Descripción)
 3. [Funcionalidades](#Funcionalidades)
 4. [Bocetos](#Bocetos)
@@ -15,7 +15,7 @@
 
 ## Capturas_de_Pantalla
 
-## Interfaz Principal
+## Interfaz_Principal
 
 ![Bienvenidos (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/13ee1cc8-3372-4dd2-8bb4-ce71a2ba4adc)
 ![Nuestros Productos (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/8bd3ec7b-9763-40d4-b637-49a6f604c1ac)
