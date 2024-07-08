@@ -1,8 +1,8 @@
-# BULLS PROMINENCE
+# BULLS PROMINENCE 
 
 ## Tabla de Contenido
 
-1. [Capturas_de_Pantalla](#CapturasdePantalla)
+1. [Interfaz Principal](#InterfazPrincipal)
 2. [Descripción](#Descripción)
 3. [Funcionalidades](#Funcionalidades)
 4. [Bocetos](#Bocetos)
@@ -33,7 +33,7 @@
 
 ![Descripción Producto (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/c3573cf0-6409-496d-b80e-11b5e5f5ad14)
 
-## Descripción
+## Descripción 
 
 Este proyecto es una página web orientada a móviles diseñada para vender productos de volleyball. El objetivo principal de esta plataforma es proporcionar una experiencia de usuario intuitiva y fluida para los aficionados y jugadores de volleyball que deseen adquirir equipamiento y accesorios de alta calidad.
 
