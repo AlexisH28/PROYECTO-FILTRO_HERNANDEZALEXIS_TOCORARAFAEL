@@ -4,8 +4,8 @@
 | Indice | Título  |
 |--|--|
 | 1. | [Interfaz_Principal](#Interfaz_Principal) |
-| 2. | [Descripción📱](#Descripción📱) |
-| 3. | [Funcionalidades_🌐](#Funcionalidades🌐) |
+| 2. | [Descripción](#Descripción) |
+| 3. | [Funcionalidades](#Funcionalidades) |
 | 4. | [Bocetos](#Bocetos) |
 | 5. | [Diseños](#Diseños) |
 | 6. | [Diapositivas](#Diapositivas) |
