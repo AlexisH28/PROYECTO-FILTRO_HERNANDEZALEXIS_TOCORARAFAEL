@@ -5,7 +5,7 @@
 |--|--|
 | 1. | [Interfaz_Principal](#Interfaz_Principal) |
 | 2. | [Descripción](#Descripción) |
-| 3. | [Funcionalidades 🌐](#Funcionalidades🌐) |
+| 3. | [Funcionalidades_🌐](#Funcionalidades🌐) |
 | 4. | [Bocetos](#Bocetos) |
 | 5. | [Diseños](#Diseños) |
 | 6. | [Diapositivas](#Diapositivas) |
@@ -38,7 +38,7 @@
 
 Este proyecto es una página web orientada a móviles diseñada para vender productos de volleyball. El objetivo principal de esta plataforma es proporcionar una experiencia de usuario intuitiva y fluida para los aficionados y jugadores de volleyball que deseen adquirir equipamiento y accesorios de alta calidad.
 
-## Funcionalidades 🌐
+## Funcionalidades_🌐
 
 - **Página de inicio:** Bienvenida y presentación de la tienda.
 - **Catálogo de productos:** Lista de productos con imágenes, descripciones y precios.
