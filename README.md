@@ -1,7 +1,18 @@
 # BULLS PROMINENCE 
 
 ## Tabla de Contenido
-
+| Indice | Título  |
+|--|--|
+| 1. | Interfaz Principal |
+| 2. | Descripción |
+| 3. | Funcionalidades |
+| 4. | Bocetos |
+| 5. | Diseños |
+| 6. | Diapositivas |
+| 7. | Tecnologías |
+| 8. | USO |
+| 9. | Contribución |
+| 10. | Contacto |
 1. [Interfaz_Principal](#Interfaz_Principal)
 2. [Descripción](#Descripción)
 3. [Funcionalidades](#Funcionalidades)
