@@ -3,7 +3,7 @@
 ## Tabla de Contenido 📋
 | Indice | Título  |
 |--|--|
-| 1. | [Interfaz_Principal](#Interfaz_Principal) |
+| 1. | [Interfaz_Principal](#capturas_de_pantalla-%EF%B8%8F) |
 | 2. | [Descripción](#Descripción) |
 | 3. | [Funcionalidades](#Funcionalidades) |
 | 4. | [Bocetos](#Bocetos) |
