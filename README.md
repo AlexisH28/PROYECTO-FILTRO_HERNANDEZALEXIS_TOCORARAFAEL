@@ -4,7 +4,7 @@
 | Indice | Título  |
 |--|--|
 | 1. | [Interfaz_Principal](#Interfaz_Principal) |
-| 2. | [Descripción](#Descripción) |
+| 2. | [Descripción📱](#Descripción📱) |
 | 3. | [Funcionalidades_🌐](#Funcionalidades🌐) |
 | 4. | [Bocetos](#Bocetos) |
 | 5. | [Diseños](#Diseños) |
@@ -34,7 +34,7 @@
 
 ![Descripción Producto (1)](https://github.com/AlexisH28/PROYECTO-FILTRO_HERNANDEZALEXIS_TOCORARAFAEL/assets/166555818/c3573cf0-6409-496d-b80e-11b5e5f5ad14)
 
-## Descripción 📱
+## Descripción📱
 
 Este proyecto es una página web orientada a móviles diseñada para vender productos de volleyball. El objetivo principal de esta plataforma es proporcionar una experiencia de usuario intuitiva y fluida para los aficionados y jugadores de volleyball que deseen adquirir equipamiento y accesorios de alta calidad.
 
