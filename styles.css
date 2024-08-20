@@ -1,5 +1,5 @@
 :root {
-    font-size: 3vw;
+    font-size: 16px;
 }
 
 /* Global Styles */
@@ -93,7 +93,7 @@ header {
     background-color: #fff;
     margin: 20px auto;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 85%;
 }
 
@@ -122,6 +122,9 @@ header {
 
 .carousel-item img {
     border-radius: 15px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /* Body Styles */
@@ -134,6 +137,16 @@ body {
     animation: fadeIn 1s ease-in-out;
     transition: background-color 0.3s, color 0.3s;
     font-family: "Tomorrow";
+    font-size: 1rem;
+}
+
+.productos a:hover, .producto h3:hover, .producto p:hover {
+    color: #c00909;
+    text-decoration: underline;
+}
+
+.producto:hover, .Info-1:hover, .descripcion-producto:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 /* Products Section */
@@ -155,7 +168,7 @@ body {
 
 .productos h2 {
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #c00909;
     text-align:start;
 }
@@ -184,7 +197,7 @@ body {
     min-width: 200px;
     flex: 0 0 auto;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
     text-decoration: none;
 }
@@ -221,11 +234,17 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
 .btn-comprar:hover {
     background-color: #a00707;
+    transform: translateY(-2px);
+}
+
+.productos a:hover, .producto h3:hover, .producto p:hover {
+    color: #c00909;
+    text-decoration: underline;
 }
 
 /* Descripción Productos Section */
@@ -266,9 +285,13 @@ body {
 }
 
 .descripcion-producto {
-    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 5%;
     margin: 0;
+}
+
+.descripcion-producto h2 {
+    font-size: 2rem;
 }
 
 .descripcion-producto p {
@@ -344,6 +367,9 @@ body {
     gap: 20px;
 }
 .imagenes-producto img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     max-width: 70%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -351,7 +377,8 @@ body {
 }
 .descripcion-producto {
     max-width: 600px; 
-    margin-left: 20px; 
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .descripcion-producto h2 {
     font-size: 7vw;
@@ -391,6 +418,7 @@ body {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .table {
@@ -499,7 +527,36 @@ body {
         width: 100%;
         margin-bottom: 10px;
     }
+
+    .logo img {
+        height: 20vw;
+    }
+
+    .header-buttons--right a img {
+        width: 10vw;
+    }
+
+    .productos-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .producto {
+        min-width: 150px;
+        width: 90%;
+    }
+
+    .imagen-prd {
+        max-width: 100px;
+    }
 }
+
 
 @media (min-width: 600px) {
     .productos-grid {
@@ -517,10 +574,10 @@ body {
 
 @media (max-width: 768px) {
     .productos-grid {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
     .shopping-cart {
-        padding: 10px;
+        padding: 20px;
     }
 
     .cart-container {
@@ -528,7 +585,7 @@ body {
     }
 
     .table th, .table td {
-        padding: 10px;
+        padding: 20px;
     }
 
     .table .quantity {
@@ -563,6 +620,9 @@ body {
     .imagenes-producto {
         flex-direction: column;
         gap: 10px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     }
     .descripcion-producto {
         margin-left: 0;
@@ -602,9 +662,15 @@ body {
     }
 }
 
-.animated-section {
+/*.animated-section {
     animation-duration: 1s;
     animation-fill-mode: both;
+}
+*/
+
+.enter, .exit {
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.6s;
 }
 
 /* Al cambiar a una nueva interfaz */
