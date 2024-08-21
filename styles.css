@@ -3,6 +3,7 @@
 }
 
 /* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,62 +26,73 @@
 }
 
 /* Header Styles */
+
 header {
     font-family: "PermanentMarker";
     background-color: red;
     background-image: linear-gradient(rgb(248, 0, 0), rgb(0, 0, 0));
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 15px;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.9);
+    justify-content: space-between;
+    padding: 15px 5%;
+    border-bottom-left-radius: 10% 30px;
+    border-bottom-right-radius: 10% 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
     width: 100%;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
     flex-wrap: wrap;
+    width: 60%;
 }
 
 .header-buttons--right {
-    position: relative;
-    left: 30%;
     display: flex;
-    gap: 20px;
-    align-self: flex-end;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-buttons--right a img {
-    width: 7vw;
+    width: 5vw;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header-buttons--right a img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
-    position: relative;
-    right: 10%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     width: 30%;
+    text-align: center;
 }
 
 .logo img {
-    height: 13vw;
+    height: 10vw;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: rotate(10deg) scale(1.05);
 }
 
 .logo h1, .logo h2 {
     color: white;
-    font-size: 3.8vw;
-    text-align: center;
+    font-size: 3vw;
 }
 
 /* Info-1 y Carousel */
+
 .Info-1 {
     font-family: "KellySlab";
     font-weight: bold;
@@ -89,7 +101,7 @@ header {
     background-color: #fff;
     margin: 20px auto;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     width: 85%;
 }
 
@@ -103,8 +115,15 @@ header {
     background-color: #d61313d9;
     color: #fff;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
+    font-family: "Tomorrow";
+}
+
+.Info-1 .boton:hover {
+    background-color: #a00707;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-section {
@@ -124,6 +143,7 @@ header {
 }
 
 /* Body Styles */
+
 body {
     line-height: 1.6;
     background-color: #f9f9f9;
@@ -135,7 +155,6 @@ body {
     font-size: 1rem;
 }
 
-/* Hover Effects */
 .productos a:hover, .producto h3:hover, .producto p:hover {
     color: #c00909;
     text-decoration: underline;
@@ -146,6 +165,7 @@ body {
 }
 
 /* Products Section */
+
 .productos {
     font-family: "Tomorrow";
     padding: 2rem;
@@ -153,7 +173,7 @@ body {
 }
 
 .producto-2 {
-    padding: 20px;
+    padding: 20px
 }
 
 .productos a {
@@ -217,6 +237,7 @@ body {
     font-size: 1rem;
     margin-bottom: 10px;
     color: black;
+    
 }
 
 .btn-comprar {
@@ -234,7 +255,13 @@ body {
     transform: translateY(-2px);
 }
 
+.productos a:hover, .producto h3:hover, .producto p:hover {
+    color: #c00909;
+    text-decoration: underline;
+}
+
 /* Descripción Productos Section */
+
 .galería-producto {
     display: flex;
     flex-direction: column;
@@ -292,6 +319,7 @@ body {
 }
 
 /* Nosotros Section */
+
 #nosotros {
     font-family: "Tomorrow";
     text-align: center;
@@ -309,9 +337,120 @@ body {
 }
 
 /* Footer/Contacto Section */
+
 .contacto {
     font-family: "Tomorrow";
     padding: 2rem;
     text-align: center;
-    background-color: #f4f
+    background-color: #f4f4f4;
+}
+
+.contacto h2 {
+    color: #c00909;
+    font-size: 2rem;
+}
+
+.footer {
+    font-family: "Tomorrow";
+    padding: 1rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+.footer a {
+    color: #c00909;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #f4f4f4;
+}
+
+.footer img {
+    width: 60px;
+    transition: transform 0.3s;
+}
+
+.footer img:hover {
+    transform: scale(1.2);
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+    .header-buttons--right a img {
+        width: 7vw;
+    }
+    .header-buttons--right {
+        flex-wrap: wrap;
+    }
+    .logo img {
+        height: 13vw;
+    }
+    .logo h1, .logo h2 {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header {
+        justify-content: center;
+    }
+    .header-buttons--right {
+        width: 100%;
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .logo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .logo h1, .logo h2 {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .producto {
+        min-width: 150px;
+    }
+    .producto img {
+        max-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header-buttons--right a img {
+        width: 15vw;
+    }
+    .logo img {
+        height: 20vw;
+    }
+    .logo h1, .logo h2 {
+        font-size: 8vw;
+    }
+    .productos h2 {
+        font-size: 1.5rem;
+    }
+    .Info-1 .boton {
+        font-size: 0.9rem;
+    }
 }
