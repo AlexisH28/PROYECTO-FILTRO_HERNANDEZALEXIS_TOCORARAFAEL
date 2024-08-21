@@ -40,8 +40,6 @@ header {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
     width: 100%;
     flex-wrap: wrap;
-    position: sticky;
-    top: 0;
     z-index: 1000;
 }
 
@@ -51,6 +49,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     width: 60%;
+    position: relative;
 }
 
 .header-buttons--right {
@@ -266,7 +265,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 8%;
+    margin-bottom: 15%;
 }
 
 .galería-producto h2 {
@@ -336,6 +335,17 @@ body {
     font-size: 2rem;
 }
 
+#nosotros a img {
+    width: 40px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#nosotros a img:hover {
+    transform: scale(1.2);
+
+}
+
 /* Footer/Contacto Section */
 
 .contacto {
@@ -352,14 +362,16 @@ body {
 
 .footer {
     font-family: "Tomorrow";
-    padding: 1rem;
+    padding: 20px 10px;
     text-align: center;
-    background-color: black;
+    background-color: #2c2c2c;
     color: white;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
     position: relative;
+    margin-top: 50px;
+    clear: both;
 }
 
 .footer p {
@@ -367,6 +379,7 @@ body {
 }
 
 .footer a {
+    font-size: 18px;
     color: #c00909;
     text-decoration: none;
     transition: color 0.3s;
@@ -377,22 +390,22 @@ body {
 }
 
 .footer img {
-    width: 60px;
-    transition: transform 0.3s;
+    width: 40px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .footer img:hover {
     transform: scale(1.2);
 }
 
-/* Animations */
+/* Animaciones */
 
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
 
-/* Media Queries */
+/* Responsive (Media Queries) */
 
 @media only screen and (max-width: 1200px) {
     .header-buttons--right a img {
