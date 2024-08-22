@@ -405,6 +405,24 @@ body {
     100% { opacity: 1; }
 }
 
+.producto-carrito {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.btn-eliminar {
+    animation: fadeOut 0.5s ease;
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
 /* Responsive (Media Queries) */
 
 @media only screen and (max-width: 1200px) {
