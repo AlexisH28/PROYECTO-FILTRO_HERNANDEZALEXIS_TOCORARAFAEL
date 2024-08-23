@@ -1,5 +1,5 @@
 :root {
-    font-size: 3vw;
+    font-size: 16px;
 }
 
 /* Global Styles */
@@ -34,9 +34,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15% ;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom-left-radius: 10% 10%;
+    border-bottom-right-radius: 10% 10%;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.9);
     width: 100%;
 }
@@ -44,9 +45,9 @@ header {
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -167,15 +168,17 @@ body {
 }
 
 .productos-grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 20px;
     padding-bottom: 10px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-
 }
 
 .producto {
+    width: 100%;
+    margin: auto;
     display: inline-block;
     border: 1px solid #ddd;
     padding: 10px;
@@ -216,7 +219,7 @@ body {
 .btn-comprar {
     background-color: #d41616d2;
     color: white;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1.2rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -321,7 +324,7 @@ body {
 }
 
 .redes-sociales a img {
-    width: 50px;
+    width: 30px;
     height: auto;
     transition: transform 0.3s;
 }
@@ -401,7 +404,8 @@ body {
 }
 
 .table th, .table td {
-    padding: 15px;
+    font-size: 0.9rem;
+    padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
     border-radius: 10px;
@@ -515,6 +519,38 @@ body {
 }
 
 @media (max-width: 768px) {
+
+    :root {
+        font-size: 18px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .btn-comprar {
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    :root {
+        font-size: 14px;
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+        border-bottom-left-radius: 15% 15%;
+        border-bottom-right-radius: 15% 15%;
+    }
+
+    .producto {
+        width: auto;
+    }
+
     .productos-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -527,7 +563,8 @@ body {
     }
 
     .table th, .table td {
-        padding: 10px;
+        font-size: 1rem;
+        padding: 15px;
     }
 
     .table .quantity {
@@ -567,107 +604,26 @@ body {
         margin-left: 0;
         margin-top: 20px;
     }
-}
 
-@media (max-width: 360px) {
-    :root {
-        font-size: 4vw;
-    }
-
-    .logo img {
-        height: 20vw;
-    }
-
-    .header-buttons--right a img {
-        width: 10vw;
-    }
-
-    .productos-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .shopping-cart {
-        padding: 10px;
-    }
-
-    .cart-container {
-        padding: 10px;
-    }
-
-    .table th, .table td {
-        padding: 8px;
-    }
-
-    .cart-summary {
-        padding: 10px;
+    .redes-sociales a img {
+        width: 50px;
     }
 }
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 1024px) {
+
     :root {
-        font-size: 3.5vw;
-    }
-
-    .logo img {
-        height: 15vw;
-    }
-
-    .header-buttons--right a img {
-        width: 6vw;
-    }
-
-    .productos-grid {
-        grid-template-columns: 1fr 1fr;
+        font-size: 18px;
     }
     
-    .shopping-cart {
-        padding: 15px;
-    }
-
-    .cart-container {
-        padding: 15px;
-    }
-
-    .table th, .table td {
-        padding: 12px;
-    }
-
-    .cart-summary {
-        padding: 15px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    :root {
-        font-size: 2vw;
-    }
-
-    .logo img {
-        height: 12vw;
-    }
-
-    .header-buttons--right a img {
-        width: 4vw;
-    }
-
     .productos-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
 
-    .shopping-cart {
-        padding: 20px;
-    }
-
-    .cart-container {
-        padding: 20px;
-    }
-
-    .table th, .table td {
-        padding: 15px;
-    }
-
-    .cart-summary {
-        padding: 20px;
+@media (min-width: 1440px) {
+    .productos-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -717,9 +673,4 @@ body {
 /* Al regresar a la interfaz anterior */
 .exit {
     animation-name: Deslizar-izquierda;
-}
-
-/* Animación de entrada suave */
-.fadeIn {
-    animation: fadeIn 1s ease-in-out;
 }
