@@ -45,6 +45,7 @@ Este proyecto es una página web orientada a móviles diseñada para vender prod
 - **Carrusel de imágenes:** Muestra imágenes destacadas y actividades relacionadas con el volleyball.
 - **Sección "Sobre Nosotros":** Información sobre la tienda.
 - **Sección de contacto:** Enlaces a nuestras redes sociales y formas de contacto.
+- **Sección de Carrito de Compras:** Encontrarás todos tus productos dividos por cantidad, precio, subtotal. También, lograrás evidenciar el total de la compra y podrás eliminar el producto que ya no desees.
 
 ## Bocetos
 
@@ -63,6 +64,7 @@ https://www.canva.com/design/DAGIZQ9zE6A/WVYiBOKX_qACis2Z1rLrHg/edit?utm_content
 - **HTML5:** Estructura de la página web.
 - **CSS3:** Estilos y diseño responsivo.
 - **Bootstrap 5:** Framework CSS para diseño responsivo y componentes preconstruidos.
+- **JavaScript:** Lenguaje de programación interpretado, dialecto del estándar ECMAScript. Mediante el cual, se logró implementar todas las funciones.
 
 > [!IMPORTANT]
 > ## USO 🔧
