@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <script src="main.js"></script>
     <header>
         <div class="logo">
             <img src="./Multimedia/logo.png" alt="Bulls Prominence Logo">
@@ -32,7 +31,7 @@
         <section class="shopping-cart">
             <h1>Carrito de Compras</h1>
             <div class="cart-container">
-                <table class="table">
+                <table class="table" id="carrito">
                     <thead>
                         <tr>
                             <th>Producto</th>
@@ -72,7 +71,8 @@
                 </table>
                 <div class="cart-summary">
                     <h3>Resumen del Pedido</h3>
-                    <p>Total: $386.699 COP</p>
+                    <p>Subtotal: <span id="subtotal">$386.699 COP</span></p>
+                    <p>Total: <span id="total">$386.699 COP</span></p>
                     <button class="btn btn-success">Proceder al Pago</button>
                 </div>
             </div>
@@ -97,5 +97,6 @@
             <br>
         </section>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
