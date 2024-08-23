@@ -172,7 +172,11 @@ body {
 }
 
 .producto-2 {
-    padding: 20px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
 }
 
 .productos a {
@@ -247,6 +251,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .btn-comprar:hover {
@@ -273,6 +279,7 @@ body {
 }
 
 .text-prd {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,7 +321,111 @@ body {
 }
 
 .imagen-prd {
-    max-width: 200px;
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
+
+/* Sección carrito de compras */
+.shopping-cart h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #d9534f;
+    font-family: 'Rubik', sans-serif;
+}
+
+.cart-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.table th {
+    background-color: #d9534f;
+    color: white;
+    font-weight: bold;
+}
+
+.table td {
+    background-color: #f9f9f9;
+}
+
+.cart-img {
+    width: 60px;
+    border-radius: 8px;
+}
+
+.quantity {
+    width: 60px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Botones */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+    transform: scale(1.05);
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-success:hover {
+    background-color: #4cae4c;
+    transform: scale(1.05);
+}
+
+/* Resumen del pedido */
+.cart-summary {
+    text-align: right;
+    font-size: 18px;
+}
+
+.cart-summary h3 {
+    margin-bottom: 10px;
+    font-family: 'KellySlab';
+}
+
+.cart-summary p {
+    margin: 5px 0;
 }
 
 /* Nosotros Section */
@@ -398,6 +509,18 @@ body {
     transform: scale(1.2);
 }
 
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.redes-sociales a img {
+    width: 30px;
+    height: 30px;
+}
+
 /* Animaciones */
 
 @keyframes fadeIn {
@@ -466,7 +589,45 @@ body {
     .producto img {
         max-height: 100px;
     }
+
+    .productos-container, #productos-container-galeria {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .navbar a img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .table th, .table td {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .cart-img {
+        width: 40px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .cart-summary {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .redes-sociales a img {
+        width: 25px;
+        height: 25px;
+    }
 }
+
 
 @media only screen and (max-width: 576px) {
     .header-buttons--right a img {
@@ -483,5 +644,62 @@ body {
     }
     .Info-1 .boton {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .productos-container, #productos-container-galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .producto-2 {
+        margin: 10px 0;
+    }
+
+    .btn-comprar {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .logo img {
+        width: 30px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .table th, .table td {
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    .cart-img {
+        width: 30px;
+    }
+
+    .btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .cart-summary {
+        font-size: 14px;
+    }
+
+    .redes-sociales {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .redes-sociales a img {
+        width: 20px;
+        height: 20px;
     }
 }
