@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Balón Volleyball Mikasa",
+        "precio": 141.709,
+        "imagen": "/Multimedia/IMAGENES/balón-mikasa.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Rodilleras Volleyball Asics",
+        "precio": 189.990,
+        "imagen": "/Multimedia/IMAGENES/rodilleras.png"
+    },
+    {
+        "id":"3",
+        "nombre": "Uniforme Volleyball",
+        "precio": 55.000,
+        "imagen": "/Multimedia/IMAGENES/uniforme.png"
+    },
+    {
+        "id":"4",
+        "nombre": "Coderas Wosawe",
+        "precio": 43.284,
+        "imagen": "/Multimedia/IMAGENES/Coderas.png"
+    },
+    {
+        "id":"5",
+        "nombre": "Zapatos Asics Netburner Ballistic",
+        "precio": 599.990,
+        "imagen": "/Multimedia/IMAGENES/zapatos-asics.png"
+    }
+]
