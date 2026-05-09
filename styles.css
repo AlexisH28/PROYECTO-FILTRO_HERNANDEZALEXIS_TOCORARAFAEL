@@ -12,17 +12,17 @@
 
 @font-face {
     font-family: "KellySlab";
-    src: url(/Fonts/KellySlab-Regular.ttf);
+    src: url(./Fonts/KellySlab-Regular.ttf);
 }
 
 @font-face {
     font-family: "Tomorrow";
-    src: url(/Fonts/Tomorrow-Regular.ttf);
+    src: url(./Fonts/Tomorrow-Regular.ttf);
 }
 
 @font-face {
     font-family: "PermanentMarker";
-    src: url(/Fonts/PermanentMarker-Regular.ttf);
+    src: url(./Fonts/PermanentMarker-Regular.ttf);
 }
 
 /* Header Styles */
